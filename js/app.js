@@ -54,7 +54,7 @@ $(document).ready(function(){
 		$('.ryu-still').hide();
 		$('.ryu-cool').hide();
 		$('.ryu-throwing').show();
-		$('.hadouken').finish().show().animate(
+		$('.hulk-hadouken').finish().show().animate(
 			{'left':'1020px'},
 			500,
 			function(){
@@ -88,7 +88,7 @@ $(document).ready(function(){
 		if(e.keyCode == 88) {
 			$('.ryu-cool').hide();
 			$('.ryu-still').show();
-			$('.ryu-ready').show();
+			$('.ryu-ready').hide();
 
 		}
 
