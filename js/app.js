@@ -48,7 +48,7 @@ $(document).ready(function(){
 		$('.ryu-still').show();
 	})
 
-	.mousedown(function(){
+	$('.hulk-ryu').mousedown(function(){
 		playHadouken();
 		$('.ryu-ready').hide();
 		$('.ryu-still').hide();
@@ -95,6 +95,8 @@ $(document).ready(function(){
 	})
 
 });
+
+
 
 function playHadouken(){
 	$('#hadouken-sound')[0].volume=0.5;

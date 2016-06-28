@@ -24,18 +24,28 @@ body  {
 }
 
 .hulk-ryu {
+	-webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+      -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+/*    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);*/
 	float:right;
 	width: 659px;
 	height: 494px;
 }
 
 /*.hulk-ryu .ryu-ready .ryu-still .ryu-thowing .ryu-cool {
-	filter: hue-rotate(90deg);
-	float:right;
-	width: 659px;
-	height: 494px;
-}*/
-
+	transform: rotate(90deg);
+}
+*/
 
 /* Figure Divs*/
 
@@ -93,7 +103,6 @@ body  {
 	top:167px;
 	right: 520px;
 	z-index: 10;
-	filter:hue-rotate(90deg);
 }
 
 /* Text */
@@ -108,7 +117,7 @@ body  {
 	padding: 100px 75px 0 0;
 	font-size: 14px;
 	font-weight: bold;
-	color: white;
+	color: black;
 }
 
 .make-para {
@@ -125,7 +134,7 @@ body  {
 	
 	font-size: 30px;
 	display: inline-block;
-	padding-left: 100px;
+	padding-right: 100px;
 	padding-top: 55px;
 	position: relative;
 	left: 150px;	
